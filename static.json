@@ -1,0 +1,12 @@
+{
+  "headers": {
+    "/assets/*.css": { "Content-Type": "text/css" },
+    "/assets/*.js": { "Content-Type": "application/javascript" },
+    "/assets/*.svg": { "Content-Type": "image/svg+xml" },
+    "/assets/*.png": { "Content-Type": "image/png" }
+  },
+  "routes": {
+    "/assets/*": { "dest": "/assets/" },
+    "/*": { "dest": "/index.html" }
+  }
+}
